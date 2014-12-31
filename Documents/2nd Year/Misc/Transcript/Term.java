@@ -7,4 +7,8 @@ public class Term{
         this.date = theDate;
         this.courses = new ArrayList<Course>();
     }
+    
+    public String get_date(){
+        return this.date;
+    }
 }
